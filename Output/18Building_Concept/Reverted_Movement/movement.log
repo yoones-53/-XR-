@@ -1,0 +1,14 @@
+00:00.656  blend            | Read blend: "C:\Users\momoii\Desktop\UnityWorkspace\XRProject_Assignment\Output\18Building_Concept\18Building_Concept.blend"
+C:\Users\momoii\Desktop\UnityWorkspace\XRProject_Assignment\Output\18Building_Concept\mark_movement.py:12: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new(name);m.diffuse_color=(*col,1);m.use_nodes=True;n=m.node_tree.nodes;n.clear();a=n.new('ShaderNodeEmission');a.inputs[0].default_value=(*col,1);o=n.new('ShaderNodeOutputMaterial');m.node_tree.links.new(a.outputs[0],o.inputs[0]);return m
+C:\Users\momoii\Desktop\UnityWorkspace\XRProject_Assignment\Output\18Building_Concept\mark_movement.py:15: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  amber.use_nodes=True;amber.node_tree.nodes.clear();p=amber.node_tree.nodes.new('ShaderNodeBsdfPrincipled');p.inputs['Base Color'].default_value=(.65,.31,.08,1);p.inputs['Roughness'].default_value=.8;output=amber.node_tree.nodes.new('ShaderNodeOutputMaterial');amber.node_tree.links.new(p.outputs[0],output.inputs[0])
+00:20.593  render           | Saved: 'C:\Users\momoii\Desktop\UnityWorkspace\XRProject_Assignment\Output\18Building_Concept\18Building_Movement_Overview.png'
+00:37.062  render           | Saved: 'C:\Users\momoii\Desktop\UnityWorkspace\XRProject_Assignment\Output\18Building_Concept\18Building_Movement_TopView.png'
+Info: Saved as "18Building_Movement.blend"
+Info: Packed 2 file(s)
+Info: Saved as "18Building_Movement.blend"
+DONE start Unity (0,0,0) / stairs (0,-20.5) / elevator (25,20)
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:37:04)
+
+Blender quit

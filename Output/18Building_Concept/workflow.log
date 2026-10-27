@@ -1,0 +1,10 @@
+00:00.625  blend            | Read blend: "C:\Users\momoii\Desktop\UnityWorkspace\XRProject_Assignment\Output\18Building_Concept\18Building_Concept.blend"
+C:\Users\momoii\Desktop\UnityWorkspace\XRProject_Assignment\Output\18Building_Concept\build_workflow.py:12: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new(name);m.diffuse_color=(*c,1);m.use_nodes=True;n=m.node_tree.nodes;n.clear();a=n.new('ShaderNodeEmission');a.inputs[0].default_value=(*c,1);a.inputs[1].default_value=strength;o=n.new('ShaderNodeOutputMaterial');m.node_tree.links.new(a.outputs[0],o.inputs[0]);return m
+00:40.391  render           | Saved: 'C:\Users\momoii\Desktop\UnityWorkspace\XRProject_Assignment\Output\18Building_Concept\18Building_Gameplay_Workflow.png'
+Info: Packed 2 file(s)
+Info: Saved as "18Building_Gameplay_Workflow.blend"
+WORKFLOW DONE
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:37:04)
+
+Blender quit

@@ -1,0 +1,12 @@
+C:\Users\momoii\Desktop\UnityWorkspace\XRProject_Assignment\Output\18Building_Concept\build_concept.py:11: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new(name);m.diffuse_color=(*color,1);m.use_nodes=True
+C:\Users\momoii\Desktop\UnityWorkspace\XRProject_Assignment\Output\18Building_Concept\build_concept.py:111: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  scene.world.color=(.8,.8,.8);scene.world.use_nodes=True
+00:41.640  render           | Saved: 'C:\Users\momoii\Desktop\UnityWorkspace\XRProject_Assignment\Output\18Building_Concept\18Building_Overview.png'
+01:10.156  render           | Saved: 'C:\Users\momoii\Desktop\UnityWorkspace\XRProject_Assignment\Output\18Building_Concept\18Building_TopView.png'
+Info: Saved as "18Building_Concept.blend"
+Info: Saved as "18Building_Concept.blend"
+DONE 18 floor modules 12 doors
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:37:04)
+
+Blender quit
