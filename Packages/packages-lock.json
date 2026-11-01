@@ -1,13 +1,5 @@
 {
   "dependencies": {
-    "com.tripo3d.unitybridge": {
-      "version": "file:C:/Users/momoii/Downloads/Tripo3d_Unity_Bridge-latest/Tripo3d_Unity_Bridge",
-      "depth": 0,
-      "source": "local",
-      "dependencies": {
-        "com.unity.modules.jsonserialize": "1.0.0"
-      }
-    },
     "com.unity.collab-proxy": {
       "version": "2.5.1",
       "depth": 0,
@@ -73,6 +65,15 @@
       "depth": 1,
       "source": "registry",
       "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.recorder": {
+      "version": "3.0.4",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.timeline": "1.0.0"
+      },
       "url": "https://packages.unity.com"
     },
     "com.unity.settings-manager": {
